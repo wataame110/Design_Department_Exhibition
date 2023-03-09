@@ -1,0 +1,268 @@
+.body{
+    background-color: #EAEAEA;
+}
+/* top */
+.header__top{
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 124px;
+    height: 54px;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.gnav{
+    width: 200px;
+    margin-top: 90px;
+    font-size: 160%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3C3D3D;
+}
+.font{
+    margin-bottom: 50px;
+}
+.font a{
+    color: #3C3D3D;
+    text-decoration: none;
+}
+.font_l{
+    margin-left: 20px;
+}
+.font_l a{
+    color: #3C3D3D;
+    text-decoration: none;
+}
+.header__inner--top{
+    width: 800px;
+    position: relative;
+}
+.main__image{
+    width: 100%;
+}
+.main__image img{
+    width: 100%;
+    height: auto;
+}
+.sub__nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.sub__nav ul{
+    width: 100%;
+    font-size: 160%;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3C3D3D;
+}
+.sub__nav ul{
+    display: flex;
+}
+.sub__nav ul li{
+    margin-right: 15px;
+}
+.main__image_box{
+    padding-top: 200px;
+    text-align: right;
+}
+.top__head{
+    font-size: 40px;
+    text-align: center;
+    margin: 100px 0;
+    color: #3C3D3D;
+}
+.recommend__image{
+    width: 100%;
+    margin:0 auto ;
+}
+.recommend__image img{
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+    margin-bottom: 300px;
+    margin-left: 20px;
+
+}
+.recommend__image_box{
+    width: 1280px;
+    margin: 0 auto;
+}
+.about__image{
+    width: 100%;
+}
+.about__image img{
+    width: 100%;
+    height: auto;
+}
+/* products */
+.header{
+    width: 100%;
+    border-bottom: 1px #ccc solid;
+    padding: 10px 0;
+    background-color: #EAEAEA;
+    margin-top: 10px;
+}
+.logo{
+    margin-right: 70px;
+}
+.header__inner{
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 3px;
+    line-height: 74px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+.nav ul li{
+    margin-right: 10px;
+}
+.nav2 ul{
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 3px;
+    line-height: 74px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+.nav2 ul li{
+    margin-right: 10px;
+}
+.font_p{
+    margin-left: 50px;
+}
+.font_p a{
+    color: #3C3D3D;
+    text-decoration: none;
+}
+.product__head{
+    font-size: 40px;
+    text-align: center;
+    margin: 100px 0;
+    background-color: #EAEAEA;
+}
+.mane__image{
+    width: 100%;
+    text-align: right;
+}
+.mane__image img{
+    width: 110px;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.main__products{
+    width: 1280px;
+    margin: 0 auto;
+    background: #EAEAEA;
+}
+.products__wrap{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.products__wrap li{
+    width: 270px;
+    height: auto;
+    list-style: none;
+}
+.products__wrap img{
+    width: 100%;
+}
+.wne__image{
+    width: 1280px;
+    margin:0 auto ;
+}
+.wne__image img{
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+    margin-bottom: 300px;
+
+}
+.wne__image_box{
+    width: 100px;
+    margin: 0 auto;
+}
+/* about */
+.about__p{
+    width: 100%;
+    height: auto;
+}
+.about__p img{
+    width: 100%;
+    height: auto;
+}
+.about__s{
+    width: 100%;
+    height: auto;
+}
+.about__s img{
+    width: 100%;
+    height: auto;
+    margin-top: 250px;
+}
+/* ppproducts */
+.ppproducts__main{
+    width: 100%;
+}
+.ppproducts__main img{
+    width: 100%;
+    height: auto;
+}
+.rrrecommend__image{
+    width: 1280px;
+    margin:0 auto ;
+}
+.rrrecommend__image img{
+    width: 80%;
+    height: auto;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.footer__image{
+    width: 100%;
+}
+.footer__image img{
+    width: 100%;
+    height: auto;
+}
+.footer__products{
+    width: 100%;
+}
+.footer__products img{
+    width: 100%;
+    height: auto;
+}
+.footer__about{
+    width: 100%;
+}
+.footer__about img{
+    width: 100%;
+    height: auto;
+    margin-top: 120px;
+}
+.footer__ppproducts{
+    width: 100%;
+}
+.footer__ppproducts img{
+    width: 100%;
+    height: auto;
+    margin-top: 200px;
+}
+
+
+.body{
+    background-color: #EAEAEA;
+}
